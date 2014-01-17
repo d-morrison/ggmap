@@ -58,3 +58,5 @@ Collate:
     'zzz.R'
     'file_drawer.R'
     'calc_zoom.r'
+    'GetMap.OSM.R'
+    'ggmapplot.R'

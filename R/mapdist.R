@@ -104,7 +104,7 @@ mapdist <- function(from, to, mode = c('driving','walking','bicycling'),
     close(connect)
     
     # message user
-    message(paste0('Information from URL : ', url_string))
+    if(messaging) message(paste0('Information from URL : ', url_string))
     
     # label destinations
     names( tree$rows[[1]][[1]] ) <- df$to
